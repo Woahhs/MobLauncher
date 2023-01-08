@@ -1,0 +1,9 @@
+  name: AnimalLauncher
+  main: org.woahhs.AnimalLauncher
+  version: DEV-01
+  author: Woahhs
+  description: Simple plugin that allows you to launch any animal you want!
+  commands:
+    launcher:
+      description: This is the basic launcher selector command!
+  api-version: 1.19
