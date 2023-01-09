@@ -1,8 +1,9 @@
 org\woahhs\gui\setup\GUIListener.class
 org\woahhs\gui\setup\GUIManager.class
 org\woahhs\commands\LauncherSelector.class
-org\woahhs\AnimalLauncher.class
+org\woahhs\MobLauncherPlugin.class
 org\woahhs\gui\styles\BaseGUI.class
 org\woahhs\gui\setup\GUIButton.class
+org\woahhs\launchers\Launchers.class
 org\woahhs\gui\setup\GUI.class
 org\woahhs\launchers\CreeperLauncher.class

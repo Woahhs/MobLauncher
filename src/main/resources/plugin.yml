@@ -1,5 +1,5 @@
   name: AnimalLauncher
-  main: org.woahhs.AnimalLauncher
+  main: org.woahhs.MobLauncherPlugin
   version: DEV-01
   author: Woahhs
   description: Simple plugin that allows you to launch any animal you want!

@@ -5,19 +5,19 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.woahhs.commands.LauncherSelector;
 import org.woahhs.gui.setup.GUIListener;
 
-public class AnimalLauncher extends JavaPlugin {
+public class MobLauncherPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
         registerEvents();
         registerCommands();
 
-        super.onEnable();
+
     }
 
     @Override
     public void onDisable() {
-        super.onDisable();
+
     }
 
     private void registerEvents(){
