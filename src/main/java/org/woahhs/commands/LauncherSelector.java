@@ -23,7 +23,7 @@ public class LauncherSelector implements CommandExecutor {
                 return true;
             }
             //checks if the sender has permission or is op
-            if(!sender.hasPermission("animallauncher.use") || !sender.isOp()){
+            if(!sender.hasPermission("moblauncher.use") || !sender.isOp()){
                 sender.sendMessage(ChatColor.RED + "You do not have permission to use this.");
                 return true;
             }

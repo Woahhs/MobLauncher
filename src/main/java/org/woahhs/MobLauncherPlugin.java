@@ -5,13 +5,14 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.woahhs.commands.LauncherSelector;
 import org.woahhs.gui.setup.GUIListener;
 
+import javax.security.auth.login.LoginException;
+
 public class MobLauncherPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
         registerEvents();
         registerCommands();
-
 
     }
 

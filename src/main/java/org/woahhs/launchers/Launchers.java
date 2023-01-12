@@ -2,23 +2,24 @@ package org.woahhs.launchers;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Item;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class Launchers {
 
 
-    public static ItemStack CreeperLauncher(){
-        ItemStack item = new ItemStack(Material.CREEPER_SPAWN_EGG);
-        String name = ChatColor.DARK_GREEN + ChatColor.BOLD.toString() + "Creeper " + ChatColor.GOLD + "Launcher";
+    public static ItemStack createLauncher(EntityType entityType, String name){
+        ItemStack item = new ItemStack(Material.matchMaterial(entityType.getName().toUpperCase() + "_SPAWN_EGG"));
         ItemMeta itemMeta = item.getItemMeta();
         itemMeta.setDisplayName(name);
         List<String> lore = new ArrayList<String>();
-
         lore.add("");
         lore.add(ChatColor.YELLOW + "Right-Click the launcher to launch");
         lore.add(ChatColor.YELLOW + "your selected mob!");
